@@ -45,3 +45,6 @@ Resultados Esperados
 
 - Vamos precisar que sejam enviados os arquivos: BAM file com os alinhamentos, o BAI file (arquivo de índice), o VCF file (arquivo de variantes) e o arquivo anotado em formato VCF.
 
+- O arquivo QUESTION.txt dentro da pasta ``output`` preenchido com as respostas embaixo de cada quesito. 
+
+- Para facilitar ao terminar o seu teste, commit todo o seu projeto no seu respositório forkeado (bifurcado) e nos envie o link do seu repositório junto a resposta do seu teste admissional.
