@@ -17,6 +17,8 @@ Instruções
 
 - Realize o fork deste projeto para que crie um espelho em seu repositório (ex: github.com/marcelcaraciolo/bioinfotest) github. Mais instruções de como fazer o fork [aqui](https://docs.github.com/pt/free-pro-team@latest/github/getting-started-with-github/fork-a-repo).
 
+- Os dados brutos das amostras se encontram on-line será necessário realizar o download das mesmas. Elas estão em formato FASTQ.gz
+
 - Coloque todo o código realizado dentro da pasta `code` e os resultados coloque numa pasta `output` (Arquivos BAM, SAM, VCF, Arquivo de respostas).
 
 - Há um questionário de perguntas dentro da pasta `output` com nome `QUESTION.txt` , responda as perguntas dentro do arquivo, salve e commit dentro do seu repositório quando concluído. Estas respostas são obrigatórias e farão parte de sua avaliação técnica.
@@ -43,3 +45,6 @@ Resultados Esperados
 
 - Vamos precisar que sejam enviados os arquivos: BAM file com os alinhamentos, o BAI file (arquivo de índice), o VCF file (arquivo de variantes) e o arquivo anotado em formato VCF.
 
+- O arquivo QUESTION.txt dentro da pasta ``output`` preenchido com as respostas embaixo de cada quesito. 
+
+- Para facilitar ao terminar o seu teste, commit todo o seu projeto no seu respositório forkeado (bifurcado) e nos envie o link do seu repositório junto a resposta do seu teste admissional.
