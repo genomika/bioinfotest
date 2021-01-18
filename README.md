@@ -31,9 +31,6 @@ Instruções
 
   -  BWA (http://bio-bwa.sourceforge.net/) para etapa de alinhamento
   -  FreeBayes (https://github.com/freebayes/freebayes) para etapas de chamada de variantes. Será necessário enviar um parâmetro com o arquivo das regiões-alvo de interesse (``--target``) , para que ele não rode o algoritmo de detecção em todo o genoma humano.  Disponibilizamos o arquivo de regiões neste repositório em ``data``: ``BRCA.list``.
-  -  vcflib com a ferramenta vcffilter para filtro de qualidade (https://github.com/vcflib/vcflib)
-  -  bgzip, tabix para compressão e indexação de arquivos genômicos (http://www.htslib.org/doc/bgzip.html e http://www.htslib.org/doc/tabix.html), podem ser instalados via samtools.
-  - bcftools para anotação de dados utilizando o arquivo dbsnp versão 138 , o arquivo para download se encontra aqui (http://samtools.github.io/bcftools/bcftools.html)
   - snpeff para anotação funcional das variantes (https://pcingola.github.io/SnpEff/)
   
  - Para agilizar o desenvolvimento, criamos uma imagem docker (https://www.docker.com/) contendo os arquivos necessários para a prova e já com os programas instalados, se seguir por este caminho poderá economizar um tempo!
