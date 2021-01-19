@@ -13,4 +13,4 @@
 5 - Realize o alinhamento das sequências FASTQ contra o genoma de referência hg19 aqui disponibilizado, e realize a chamada de variantes utilizando a região alvo BRCA.list (interesse apenas na região dos genes BRCA1 e BRCA2).  Realize a anotação de dados funcionais usando o SNPEFF.
  Com este arquivo em mãos , responda as seguintes perguntas ?
 
-5.1- Quantas alguma variante com impacto funcional (Annotation_Impact) do tipo HIGH, MODERATE, LOW ? Existe alguma variante em HIGH ? Qual é cromossomo, start e end ?
+5.1- Quantas variantes existem com impacto funcional (Annotation_Impact) do tipo HIGH, MODERATE, LOW ? Existe alguma variante em HIGH ? Qual é cromossomo, posição e a alteração ?
