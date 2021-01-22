@@ -17,7 +17,7 @@ Instruções
 
 - Realize o fork deste projeto para que crie um espelho em seu repositório (ex: github.com/marcelcaraciolo/bioinfotest) github. Mais instruções de como fazer o fork [aqui](https://docs.github.com/pt/free-pro-team@latest/github/getting-started-with-github/fork-a-repo).
 
-- Os dados brutos das amostras se encontram on-line será necessário realizar o download das mesmas. Elas estão em formato FASTQ.gz
+- Os dados brutos das amostras se encontram on-line será necessário realizar o download das mesmas. Elas estão em formato FASTQ.gz. Instruções de como baixar os fastqs estão na pasta `data` - `data_files_download.sh`
 
 - Coloque todo o código realizado dentro da pasta `code` e os resultados coloque numa pasta `output` (Arquivos BAM, SAM, VCF, Arquivo de respostas).
 
