@@ -33,7 +33,7 @@ Instruções
   -  FreeBayes (https://github.com/freebayes/freebayes) para etapas de chamada de variantes. Será necessário enviar um parâmetro com o arquivo das regiões-alvo de interesse (``--target``) , para que ele não rode o algoritmo de detecção em todo o genoma humano.  Disponibilizamos o arquivo de regiões neste repositório em ``data``: ``BRCA.list``.
   - snpeff para anotação funcional das variantes (https://pcingola.github.io/SnpEff/)
   
- - Para agilizar o desenvolvimento, criamos um arquivo ``Dockerfile`` a partir do sistema docker (https://www.docker.com/) contendo os arquivos necessários para a prova e já com os programas instalados, se seguir por este caminho poderá economizar um enorme tempo! Para facilitar após instalar o docker criamos o arquivo ``run_test.sh``que ao ser executado no terminal, já realiza o build da imagem do Dockerfile e já faz um ssh com a máquina. Rode a partir do diretório `bioinfotest/docker`.
+ - Para agilizar o desenvolvimento, criamos um arquivo ``Dockerfile`` a partir do sistema docker (https://www.docker.com/) contendo os arquivos necessários para a prova e já com os programas instalados, se seguir por este caminho poderá economizar um enorme tempo! Para facilitar após instalar o docker criamos o arquivo ``run_test.sh``que ao ser executado no terminal, já realiza o build da imagem do Dockerfile e já faz um ssh com a máquina. Rode a partir do diretório `bioinfotest`.
 
   
 Resultados Esperados
